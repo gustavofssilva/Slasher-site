@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   
+    #check {
+        display: none;
+        visibility: hidden;
+    }
+    
+    #icone {
+        cursor: pointer;
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+        visibility: hidden;
+    }
+    
+    .link {
+        display: inline;
+        margin: 6px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .link:hover {
+        color:  #E41376;
+    }
+
+    nav a {
+        text-decoration: none;
+    
+    }
+        .menu {
+            width: 100%;
+            height: 60px;
+            background-color: #000;
+            color: #fff;
+            padding: 0 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: fixed;
+        }
+
+        .fundo1{
+            width:100%;
+            height: 800px;
+            background-image: url(../images/fundo3.jpg);
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            padding-top: 140px;
+            background: #1b1d20;
+        }
+        .apresentacao {
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+            padding-bottom: 40px;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+        }
+      
+        .storytelling {
+            color: #fff;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-bottom: 80px;
+            font-size: 15px;
+            font-weight: 100;
+            text-align: center;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .Divimagem1 {
+            width: 600px;
+            height: 400px;
+            margin: auto;
+           
+        }
+
+        .imagem1 { 
+            width: 600px;
+            height: 400px;
+           
+        }
+        .Divimagem2 {
+            width: 600px;
+            height: 400px;
+            margin: auto;
+           
+        }
+
+        .imagem2 { 
+            width: 600px;
+            height: 400px;
+           
+        }
+           
+        .Pimagem1 {
+            color: rgb(126, 126, 126);
+            font-size: 15px;
+            font-weight: 100;
+            
+            display: flex;
+            justify-content: center;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .armas {
+           padding-top: 100px;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+            
+            padding-bottom: 40px;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+        }
+        .descricao {
+            color: #fff;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-bottom: 80px;
+            font-size: 15px;
+            font-weight: 100;
+            text-align: center;
+            font-family: 'Noto Sans', sans-serif;
+            text-align: center;
+        }
+        .hardware {
+            padding-top: 100px;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+            padding-bottom: 40px;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+        }
+        .descHardware1 {
+            color: #fff;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-bottom: 80px;
+            font-size: 15px;
+            font-weight: 100;
+            text-align: center;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        .investimentoH2 {
+                color: #fff;
+                text-align: center;
+                margin: 20px;
+                padding-bottom: 40px;
+                font-size: 35px;
+                font-weight: 900;
+                font-family: 'Lato', sans-serif;
+                
+            
+        }
+        .Divimagem3{
+            width: 600px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .imagem3 {
+            width: 600px;
+            height: 400px;
+           
+        }
+
+
+
+        .galeriaImg {
+            padding-top: 100px;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+            padding-bottom: 40px;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+        }
+        .contato {
+            padding-top: 100px;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+            padding-bottom: 40px;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+        }
+
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.small_img:hover{
+   transform: scale(1.1);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}    
+.galeria {
+    margin-bottom: 180px;
+}
+
+form {
+    font-size: 16px;
+    background: rgb(55, 49, 65);
+    max-width: 500px;
+    margin: 80px ;
+    padding: 0px 10px 30px 10px;
+    margin: 0 auto;
+
+    
+}
+.contato{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+input, textarea {
+    width: 470px;
+    padding: 10px;
+}
+
+.enviar input {
+    background-color: #01C8EE;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+.enviar input :hover {
+    background-color: #078;
+}
+textarea {
+    width: 470px;
+    height: 120px;
+    line-height: 10px;
+    resize:none;
+    
+}
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+html {
+    scroll-behavior: smooth;
+ }
+
+.equipeDiv {
+    height: 800px;
+    width: 1400px ;
+    margin: 0 auto;
+
+}
+.equipeImg{
+    
+    height: 800px;
+    width: 100% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width: 600px) {
+            #check {
+                display: none;
+             visibility:visible
+            }
+            
+            #icone {
+                cursor: pointer;
+                padding: 15px;
+                position: absolute;
+                z-index: 1;
+                visibility: visible;
+            }
+            
+            .barra {
+                background-color: #000;
+                height: 100%;
+                width: 300px;
+                position: absolute;
+                transition: all .2s linear;
+                left: -300px;
+            }
+            
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 60px;
+            
+            }
+            
+            nav a {
+                text-decoration: none;
+            
+            }
+            
+            
+            .link {
+                background-color: #101B37 ;
+                padding: 20px;
+                font-family: Arial;
+                font-size: 12pt;
+                transition: all .2s linear;
+                color: #f4f4f9;
+                border-bottom: 2px solid #222;
+                opacity: 0;
+                margin-top: 200px;
+                display: grid;
+                margin: 0;
+                text-decoration: none;
+            }
+            
+            .link:hover {
+                background-color:#E41376 ;
+            
+            }
+            
+            #check:checked ~.barra {
+            transform: translatex(300px);
+            
+            }
+            
+            #check:checked ~.barra nav a .link {
+                opacity: 1;
+                margin-top: 0;
+                transition-delay: .1s;
+                }
+                .menu {
+                    width: 100%;
+                    height: 60px;
+                    background-color: #000;
+                    color: #fff;
+                    padding: 0 20px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    position: fixed;
+                }
+                .container {
+                    width: 100%;
+                    height: 100%;
+                }
+                .menu {
+                    position: fixed;
+                }
+    
+                .apresentacao {
+                    font-size: max(25px, 5vw);
+                }
+                .storytelling{
+                    font-size: max(15px, 5vw);
+    
+                }
+                .Divimagem1 {
+                    width: 300px;
+                    height: 200px;
+                    
+                   
+                }
+        
+                .imagem1 { 
+                    width: 300px;
+                    height: 200px;
+                   
+                }
+                .Divimagem2 {
+                    width: 300px;
+                    height: 200px;
+                    
+                   
+                }
+                
+        
+                .imagem2 { 
+                    width: 300px;
+                    height: 200px;
+                   
+                }
+                .Divimagem3 {
+                    width: 300px;
+                    height: 200px;
+                    
+                   
+                }
+                .imagem3 { 
+                    width: 300px;
+                    height: 200px;
+                   
+                }
+
+                .Pimagem1 {
+                    color: rgb(126, 126, 126);
+                    font-size: 10px;
+                    margin-left: 15px;
+                    font-family: 'Lato', sans-serif;
+                }
+                .armas {
+                    font-size: max(25px, 5vw);
+                }
+                .descricao{
+                    font-size: max(15px, 5vw);
+                }
+                .hardware {
+                    font-size: max(25px, 5vw);
+                }
+                .descHardware1{
+                    font-size: max(13px, 4vw);
+                }
+                
+            .container{
+                width: 100%;
+                height: 100%;
+                background: #1b1d20;
+    
+            }
+            textarea {
+                width: 320px;
+            }
+            input, textarea {
+                width: 300px;
+            }
+            form {
+                margin: auto;
+            }
+            .equipeDiv {
+                height: 300px;
+                width: 320px ;
+                margin: 0 auto;
+                
+            }
+            .equipeImg{
+               
+                height: 300px;
+                width: 320px ;
+            }
+            
+            .link:hover {
+                color:  ivory;
+            }
+        }
+
+
+           
+        
+
+        
+
+        @media (min-width: 600px) {
+            .container {
+                width: 100%;
+                height: 100%;
+            }
+            .menu {
+                position: fixed;
+            }
+            .card_img {
+                width: 200px ;
+                height:200px ;
+            }
+            .equipeDiv {
+                height: 500px;
+                width: 800px ;
+                margin: 0 auto;
+                
+            }
+            .equipeImg{
+               
+                height: 500px;
+                width: 800px ;
+            }
+            
+        }
